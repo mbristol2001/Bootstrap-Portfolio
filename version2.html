@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Portfolio for Meredith Bristol</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
+        <style>
+            /*lightest pink ffdab9*/
+            /*pale pink f8ad9d*/
+            /*darker pink f08080*/
+        
+            body {
+                font-family: 'Montserrat';
+            }
+            .bg-1 {
+                background-color: #ffdab9;  
+                color: #000000;
+            }
+            .bg-2 {
+                background-color: #f8ad9d;  
+                color: #000000;
+            }
+            .bg-3 {
+                background-color: #f08080;  
+                color: #000000;
+            }
+            .subHeader {
+                font-weight: 500;
+                font-size: 1.3em;
+            }
+            .dates {
+                font-weight: 500;
+                font-size: 1.3em;
+            }
+            .header {
+                font-weight: 600;
+            }
+            .container-fluid {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            .button1, .button2 {
+                background-color: #ffdab9;
+            }
+            .button1:hover, .button2:hover {
+                background-color: #ffffff;
+            }
+            h2 {
+                padding-bottom: 20px;
+                color: #011c21;
+            }
+            .navbar {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border: 0;
+                border-radius: 0;
+                margin-bottom: 0;
+                font-size: 1em;
+                letter-spacing: 3px;
+                background-color: #ffffff;
+            }
+            .navbar-nav li a {
+                color: #f08080 !important;
+            }
+            .navbar-nav li a:hover {
+                font-weight: 700;
+            }
+            .navbar-default .navbar-brand {
+                color: #f08080;
+                font-size: 1.5em;
+            }
+            .navbar-default .navbar-brand:hover {
+                color: #f08080;
+            }
+            .bg-4 {
+                background-color: #ffffff;
+                padding: 20px;
+            }
+            #first {
+                margin-top: 80px;
+            }
+            ul {
+                text-align: left;
+            }
+            .social {
+                font-size: 4em;
+                color: #f08080;
+            }
+            .social:hover {
+                font-size: 5em;
+                color: #f8ad9d;
+            }
+            #keywords {
+                font-size: 1.5em;
+            }
+            .title {
+                font-weight: 600;
+                font-size: 1.4em;
+            }
+            .modal-title {
+                font-weight: 600;
+                font-size: 3em;
+            }
+            .modal-body {
+                font-size: 1.7em;
+            }
+            .close {
+                font-size: 4em;
+            }
+            #modalEmail {
+                color: #333;
+            }
+            .button1 {
+                margin-right: 50px;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#first">MEREDITH BRISTOL</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#first">ABOUT ME</a></li>
+                        <li><a href="#education">EDUCATION</a></li>
+                        <li><a href="#collageArt">COLLAGE ART</a></li>
+                        <li><a href="#keywords">KEYWORDS</a></li>
+                        <li><a href="#resume">RESUME</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container-fluid bg-3 text-center" id="first">
+
+            <h2 class="header">ABOUT ME</h2>
+            <img src="headshotresized.jpg" class="img-circle img-responsive" style="display: inline" alt="Headshot">
+            <h3>I am a Computer Science student at Saint Paul College</br>who enjoys web design & making strange collages!</h3>
+        
+            <div id="education"></div>
+        </div>
+        
+        <div class="container-fluid bg-2 text-center">
+            <h2 class="header">EDUCATION</h2>
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <div class="title">Bachelor of Science</br>in Sociology</div><div class="subHeader">Arizona State University</br>December 2015</div> 
+            </div>
+            <div class="col-md-4">
+                <div class="title">Associate of Applied Science</br>in Computer Programming</div><div class="subHeader">Saint Paul College</br>December 2022 <i>(Expected)</i></div>
+            </div>
+            <div class="col-md-2"></div>
+            <div id="collageArt"></div>
+        </div>
+        
+        <div class="container-fluid bg-1 text-center">
+            <h2 class="header">COLLAGE ART</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="title">Anyway, Here's Wonderwall...</p>
+                    <img src="wonderwall108.jpg" alt="Anyway, Here's Wonderwall" class="img-responsive" style="width: 100%">
+                </div>                
+                <div class="col-sm-4">
+                    <p class="title">Terrifying Tweens.</p>
+                    <img src="fire108.jpg" alt="Terrifying Tweens" class="img-responsive" style="width: 100%">
+                </div>
+                <div class="col-sm-4">
+                    <p class="title">Even him!</p>
+                    <img src="evenhim108.jpg" alt="Yup, even him!" class="img-responsive" style="width: 100%">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="container-fluid bg-2 text-center" id="keywords">
+            <h2 class="header">KEYWORDS</h2>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-2">
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul>
+                    <li>Javascript</li>
+                    <li>jQuery</li>
+                </ul>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+        
+        <div class="container-fluid bg-3 text-center" id="resume">
+            <h2 class="header">RESUME</h2>
+            <a href="Resume.pdf" class="btn btn-default btn-lg button1"><i class="far fa-file"></i> Resume</a>
+            <a href="" class="btn btn-default btn-lg button2" data-toggle="modal" data-target="#myModal"><i class="far fa-envelope-open"></i> Contact</a>
+        </div>
+    
+        <!-- Modal -->    
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Contact Me</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Meredith Bristol</br>
+                    <a href="mailto:mbristol2001@gmail.com?subject=Hello!" id="modalEmail">mbristol2001@gmail.com</a></br>651-210-2694</p>
+                </div>
+            </div>
+              
+            </div>
+        </div>
+        <!-- end modal -->
+        
+        <footer class="container-fluid bg-4 text-center">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <a href="https://www.saintpaul.edu" target="_blank" class="social"><i class="fab fa-fw fa-facebook-messenger"></i></a>
+                <a href="https://github.com/mbristol2001" target="_blank" class="social"><i class="fab fa-fw fa-github"></i></a>
+                <a href="https://steamcommunity.com/profiles/76561198410990950" target="_blank" class="social"><i class="fab fa-fw fa-steam"></i></a>
+                <a href="https://discord.com/users/462060954314604544" target="_blank" class="social"><i class="fab fa-fw fa-discord"></i></a>
+            </div>
+            <div class="col-sm-2">
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>
